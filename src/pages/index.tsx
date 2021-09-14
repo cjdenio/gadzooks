@@ -21,6 +21,10 @@ export default function IndexPage() {
                 "fantastical forest",
                 "website",
                 "friend",
+                "pet",
+                "life",
+                "pastime",
+                "job",
               ]}
             />
             .

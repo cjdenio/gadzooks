@@ -6,6 +6,9 @@ module.exports = {
     fontFamily: {
       logo: ["Rubik", "sans-serif"],
     },
+    minWidth: {
+      200: "250px",
+    },
   },
   variants: {
     extend: {

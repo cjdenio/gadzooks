@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+//@ts-ignore
 import ReactRotatingText from "react-rotating-text";
 import logo from "./logo.svg";
 

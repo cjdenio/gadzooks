@@ -42,7 +42,8 @@ button.success,
 }
 
 @media screen and (max-width: 1050px) {
-  .header button {
+  .header button,
+  .header .button {
     display: none;
   }
 

@@ -2,13 +2,17 @@ import React from "react";
 import { Route } from "wouter";
 import Header from "./components/Header";
 import IndexPage from "./pages";
-import AboutPage from "./pages/about";
+import StoryPage from "./pages/story";
+import ContactPage from "./pages/contact";
 
 export default function App() {
   return (
     <>
+      <Header />
+
       <Route path="/" component={IndexPage} />
-      <Route path="/about" component={AboutPage} />
+      <Route path="/story" component={StoryPage} />
+      <Route path="/contact" component={ContactPage} />
     </>
   );
 }

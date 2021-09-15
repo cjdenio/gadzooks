@@ -1,4 +1,5 @@
 {
+  "redirects": [{ "source": "/about", "destination": "/story" }],
   "rewrites": [
     {
       "source": "/(.+)",

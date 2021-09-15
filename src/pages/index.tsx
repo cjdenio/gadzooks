@@ -1,13 +1,11 @@
 import React from "react";
 //@ts-ignore
 import ReactRotatingText from "react-rotating-text";
-import Header from "../components/Header";
+import { Link } from "wouter";
 
 export default function IndexPage() {
   return (
     <div>
-      <Header />
-
       <div className="bg-purple-500 flex flex-col justify-center items-center h-screen text-white">
         <div className="w-4/5 text-center">
           <h1 className="text-6xl mb-4 font-bold">
@@ -126,7 +124,9 @@ export default function IndexPage() {
             Is my mic on? Yes? Good. Try a risk-free trial, no credit card (or
             U-Haul) needed.
           </h2>
-          <button className="bg-white">Get Started ➡️</button>
+          <Link href="/contact">
+            <button className="bg-white">Get Started ➡️</button>
+          </Link>
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ export default function Header() {
       <Link href="/">
         <button>Home</button>
       </Link>
-      <button>Our Services</button>
+      <button>What We Do</button>
 
       <Link href="/">
         <div className="inline-flex items-center font-logo text-2xl cursor-pointer">
@@ -17,12 +17,14 @@ export default function Header() {
         </div>
       </Link>
 
-      <Link href="/about">
-        <button>About Us</button>
+      <Link href="/story">
+        <button>Our Story</button>
       </Link>
-      <button className="text-white bg-purple-500 border-none font-bold">
-        Get in Touch
-      </button>
+      <Link href="/contact">
+        <button className="text-white bg-purple-500 border-none font-bold">
+          Get in Touch
+        </button>
+      </Link>
     </div>
   );
 }

@@ -1,18 +1,16 @@
 import React from "react";
-import Header from "../components/Header";
 import caleb from "../img/caleb.jpg";
 
-export default function AboutPage() {
+export default function StoryPage() {
   return (
     <div>
-      <Header />
-      <div className="bg-purple-500 text-center pb-20 pt-36 text-white mb-20">
+      <div className="bg-purple-500 text-center pb-20 pt-36 text-white">
         <div className="w-4/5 text-center mx-auto">
-          <h1 className="text-6xl font-bold">About Us</h1>
+          <h1 className="text-6xl font-bold">Our Story</h1>
         </div>
       </div>
 
-      <div className="w-4/5 max-w-3xl mx-auto py-5">
+      <div className="w-4/5 max-w-3xl mx-auto py-20">
         <h1 className="text-6xl font-bold mb-10">A man with a plan.</h1>
 
         <div className="flex gap-5 flex-wrap-reverse items-center">

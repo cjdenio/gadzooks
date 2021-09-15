@@ -22,7 +22,8 @@
   }
 }
 
-button {
+button,
+.button {
   @apply border-2 shadow-md border-purple-400 border-solid rounded-lg text-purple-800 px-4 py-2 text-sm duration-300 ease-in-out;
   @apply hover:translate-x-20 hover:shadow-lg;
 }
@@ -31,8 +32,13 @@ button:disabled {
   @apply bg-gray-400 cursor-wait;
 }
 
-button.success {
+button.success,
+.button.success {
   @apply bg-green-500;
+}
+
+.button.important {
+  @apply text-white border-none bg-purple-500 font-bold;
 }
 
 @media screen and (max-width: 1050px) {

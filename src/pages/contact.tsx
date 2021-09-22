@@ -1,9 +1,30 @@
 import { Formik } from "formik";
+import Head from "next/head";
 import React from "react";
+import Header from "../components/Header";
 
 export default function ContactPage() {
   return (
     <div>
+      <Head>
+        <title>Get In Touch | Gadzooks!</title>
+
+        <meta property="og:title" content="Get In Touch | Gadzooks!" />
+        <meta
+          property="og:description"
+          content="Gadzooks! is revolutionizing this industry with a blend of proprietary solutions and earl grey tea."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://gadzooks.me/contact" />
+        <meta
+          property="og:image"
+          content="https://gadzooks.me/img/og/contact.png"
+        />
+        <meta property="og:image:alt" content="Get In Touch | Gadzooks!" />
+      </Head>
+
+      <Header />
+
       <div className="bg-purple-500 text-center pb-20 pt-36 text-white">
         <div className="w-4/5 text-center mx-auto">
           <h1 className="text-6xl font-bold">Get In Touch</h1>

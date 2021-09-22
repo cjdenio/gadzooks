@@ -1,11 +1,32 @@
 import React from "react";
 //@ts-ignore
 import ReactRotatingText from "react-rotating-text";
-import { Link } from "wouter";
+import Link from "next/link";
+import Head from "next/head";
+import Header from "../components/Header";
 
 export default function IndexPage() {
   return (
     <div>
+      <Head>
+        <title>Gadzooks!</title>
+
+        <meta property="og:title" content="Gadzooks!" />
+        <meta
+          property="og:description"
+          content="Gadzooks! is revolutionizing this industry with a blend of proprietary solutions and earl grey tea."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://gadzooks.me" />
+        <meta
+          property="og:image"
+          content="https://gadzooks.me/img/og/index.png"
+        />
+        <meta property="og:image:alt" content="Gadzooks!" />
+      </Head>
+
+      <Header />
+
       <div className="bg-purple-500 flex flex-col justify-center items-center h-screen text-white">
         <div className="w-4/5 text-center">
           <h1 className="text-6xl mb-4 font-bold">

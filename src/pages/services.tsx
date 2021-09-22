@@ -1,9 +1,30 @@
 import React from "react";
-import { Link } from "wouter";
+import Link from "next/link";
+import Header from "../components/Header";
+import Head from "next/head";
 
 export default function ServicesPage() {
   return (
     <div>
+      <Head>
+        <title>What We Do | Gadzooks!</title>
+
+        <meta property="og:title" content="What We Do | Gadzooks!" />
+        <meta
+          property="og:description"
+          content="Gadzooks! is revolutionizing this industry with a blend of proprietary solutions and earl grey tea."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://gadzooks.me/services" />
+        <meta
+          property="og:image"
+          content="https://gadzooks.me/img/og/services.png"
+        />
+        <meta property="og:image:alt" content="What We Do | Gadzooks!" />
+      </Head>
+
+      <Header />
+
       <div className="bg-purple-500 text-center pb-20 pt-36 text-white">
         <div className="w-4/5 text-center mx-auto">
           <h1 className="text-6xl font-bold">What We Do</h1>

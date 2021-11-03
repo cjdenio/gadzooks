@@ -18,8 +18,8 @@ export default function Header() {
         </div>
       </Link>
 
-      <Link href="/story">
-        <a className="button">Our Story</a>
+      <Link href="/team">
+        <a className="button">Our Team</a>
       </Link>
       <Link href="/contact">
         <a className="important button">Get in Touch</a>

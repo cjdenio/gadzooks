@@ -67,8 +67,9 @@ export default function TeamPage() {
           <div className="flex-1 border-purple-500 border-r-4 border-solid pr-4 min-w-200">
             <b className="text-purple-500">Deven</b> joined{" "}
             <b className="text-purple-500 font-logo">Gadzooks</b> as a managing
-            partner (and general council) in 1988, and has been a crucial part
-            of our team ever since.
+            partner (and general counsel) in 1988, and has been a crucial part
+            of our team ever since. He oversees the large-scale production of
+            beverages, children's toys, and animal collars.
           </div>
         </div>
       </div>

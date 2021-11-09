@@ -44,6 +44,10 @@ export default function IndexPage() {
                 "life",
                 "pastime",
                 "job",
+                "place to hide the body",
+                "cello",
+                "text editor",
+                "goat?",
               ]}
             />
             .

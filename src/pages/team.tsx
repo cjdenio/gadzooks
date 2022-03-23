@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import React from "react";
 import Header from "../components/Header";
 
@@ -52,25 +53,15 @@ export default function TeamPage() {
         </div>
       </div>
 
-      <div className="w-4/5 max-w-3xl mx-auto py-20 pt-5">
-        <h1 className="text-6xl font-bold mb-10">
-          <span className="text-purple-500">Deven Jadhav</span> - Going and
-          growing.
-        </h1>
-
-        <div className="flex gap-5 flex-wrap-reverse items-center">
-          <img
-            src="/img/deven.jpg"
-            alt="Caleb Denio"
-            className="flex-1 w-full rounded-lg shadow-md min-w-200"
-          />
-          <div className="flex-1 border-purple-500 border-r-4 border-solid pr-4 min-w-200">
-            <b className="text-purple-500">Deven</b> joined{" "}
-            <b className="text-purple-500 font-logo">Gadzooks</b> as a managing
-            partner (and general counsel) in 1988, and has been a crucial part
-            of our team ever since. He oversees the large-scale production of
-            beverages, children's toys, and animal collars.
-          </div>
+      <div className="py-20 bg-purple-500 text-white">
+        <div className="w-4/5 max-w-3xl mx-auto">
+          <h1 className="text-6xl mb-4 font-bold">
+            1,500 people <i>can't</i> be wrong.
+          </h1>
+          <h2 className="mb-10">Become number 1,5001 today.</h2>
+          <Link href="/contact">
+            <button className="bg-white">Contact Us ➡️</button>
+          </Link>
         </div>
       </div>
     </div>

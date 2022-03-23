@@ -71,6 +71,31 @@ export default function ServicesPage() {
         </div>
       </div>
 
+      <div className="py-20 bg-green-400">
+        <div className="w-4/5 max-w-3xl mx-auto">
+          <h1 className="text-6xl mb-4 font-bold">
+            Setting the precedent for unprecedented.
+          </h1>
+          <h2 className="mb-10">It makes perfect sense. Right?</h2>
+
+          <div className="flex gap-3 flex-wrap">
+            <div className="shadow-md flex-1 bg-white p-5 rounded-lg min-w-200">
+              <h2 className="text-4xl font-bold mb-3">Variety is key.</h2>
+              Our mission is to provide the very best selection of services
+              around. Auto repair? Dental care? Air fare? We got it.
+            </div>
+
+            <div className="shadow-md flex-1 bg-white p-5 rounded-lg min-w-200">
+              <h2 className="text-4xl font-bold mb-3">
+                Sounds cool, doesn't it?
+              </h2>
+              Honestly, I don't know what to put in this box. -
+              <b className="text-purple-500 font-logo">Gadzooks</b> web designer
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="py-20 bg-purple-500 text-white">
         <div className="w-4/5 max-w-3xl mx-auto">
           <h1 className="text-6xl mb-4 font-bold">Don't be like Bob.</h1>

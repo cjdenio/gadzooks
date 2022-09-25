@@ -59,7 +59,7 @@ export default function IndexPage() {
       <div className="py-20">
         <div className="w-4/5 max-w-3xl mx-auto">
           <h1 className="text-6xl mb-4 font-bold">
-            Handling your idea the whole way through.
+            Handling your life the whole way through.
           </h1>
           <h2 className="mb-10">
             Our expert team members know exactly what they're doing (or so they

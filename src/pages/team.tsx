@@ -46,7 +46,7 @@ export default function TeamPage() {
             company dedicated to restoring a way of life.
           </div>
           <img
-            src="/img/caleb.jpg"
+            src="/img/caleb.png"
             alt="Caleb Denio"
             className="flex-1 w-full rounded-lg shadow-md min-w-200"
           />
